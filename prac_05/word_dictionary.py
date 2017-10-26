@@ -13,6 +13,7 @@ for word in word_total:
 
 word_total = list(known_words.keys())
 word_total.sort()
+print(word_total)
 max_length = max((len(word) for word in word_total))
 
 for word in word_total:
